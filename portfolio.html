@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Dhanush Kumar Nagarajan</title>
+  <meta name="description" content="Data analyst with 5+ years in SQL, R, Python, Tableau and Power BI. MSc Data Analytics, TUS 2026.">
+  <meta property="og:title" content="Dhanush Kumar Nagarajan | Data Analyst">
+  <meta property="og:description" content="Data analyst with 5+ years in SQL, R, Python, Tableau and Power BI. MSc Data Analytics, TUS 2026.">
+  <meta property="og:image" content="assets/profile.jpg">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230b1320'/><text x='50' y='66' font-size='48' text-anchor='middle' fill='%232dd4bf' font-family='Arial' font-weight='bold'>DK</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand">Dhanush <span>Nagarajan</span></a>
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="menu-btn" aria-label="Menu"><i class="bi bi-list"></i></button>
+  </div>
+</header>
+
+<main class="page">
+  <div class="container">
+    <section class="reveal">
+      <div class="section-title">
+        <h2>Portfolio</h2>
+        <p>Selected analytics, BI and machine learning work.</p>
+      </div>
+      <div class="filters">
+        <button class="active" data-filter="all">All</button>
+        <button data-filter="ml">Machine Learning</button>
+        <button data-filter="bi">BI &amp; Dashboards</button>
+        <button data-filter="sql">SQL &amp; Databases</button>
+        <button data-filter="r">R &amp; Statistics</button>
+      </div>
+      <div class="projects">
+      <article class="project" data-cat="ml">
+        <div class="project-thumb"><img src="assets/projects/thesis.png" alt="Transformer-Based Fake News Detection" onerror="this.outerHTML='<i class=&quot;bi bi-cpu&quot;></i>'"></div>
+        <div class="project-body">
+          <span class="tag">NLP · Machine Learning</span>
+          <h3>Transformer-Based Fake News Detection</h3>
+          <p>MSc thesis benchmarking BERT, RoBERTa, DistilBERT and LLMs against traditional ML baselines across multiple datasets using CRISP-DM. Evaluated with accuracy, F1, ROC-AUC and MCC.</p>
+          <!-- <div class="links"><a href="#">Code →</a><a href="#">Live →</a></div> -->
+        </div>
+      </article>
+      <article class="project" data-cat="bi">
+        <div class="project-thumb"><img src="assets/projects/agri.png" alt="Agriculture Sector BI Dashboard" onerror="this.outerHTML='<i class=&quot;bi bi-bar-chart-line&quot;></i>'"></div>
+        <div class="project-body">
+          <span class="tag">Tableau</span>
+          <h3>Agriculture Sector BI Dashboard</h3>
+          <p>Interactive dashboard on crop production, regional yield trends and sector KPIs, with filters and drill-downs built for non-technical users.</p>
+          <!-- <div class="links"><a href="#">Code →</a><a href="#">Live →</a></div> -->
+        </div>
+      </article>
+      <article class="project" data-cat="sql">
+        <div class="project-thumb"><img src="assets/projects/sql.png" alt="Business Insight via Relational Querying" onerror="this.outerHTML='<i class=&quot;bi bi-database&quot;></i>'"></div>
+        <div class="project-body">
+          <span class="tag">MySQL</span>
+          <h3>Business Insight via Relational Querying</h3>
+          <p>Complex SQL with joins, subqueries and window functions against a normalised database, with query logic documented for stakeholders.</p>
+          <!-- <div class="links"><a href="#">Code →</a><a href="#">Live →</a></div> -->
+        </div>
+      </article>
+      <article class="project" data-cat="r">
+        <div class="project-thumb"><img src="assets/projects/property.png" alt="Property Market Analysis & Modelling" onerror="this.outerHTML='<i class=&quot;bi bi-graph-up&quot;></i>'"></div>
+        <div class="project-body">
+          <span class="tag">R · Statistics</span>
+          <h3>Property Market Analysis &amp; Modelling</h3>
+          <p>Full-cycle project covering ingestion, cleansing, EDA and statistical modelling, with publication-quality visuals.</p>
+          <!-- <div class="links"><a href="#">Code →</a><a href="#">Live →</a></div> -->
+        </div>
+      </article>
+      <article class="project" data-cat="sql">
+        <div class="project-thumb"><img src="assets/projects/mongo.png" alt="Operational NoSQL Database & Reporting" onerror="this.outerHTML='<i class=&quot;bi bi-diagram-3&quot;></i>'"></div>
+        <div class="project-body">
+          <span class="tag">MongoDB</span>
+          <h3>Operational NoSQL Database &amp; Reporting</h3>
+          <p>1,000-document database modelling real-world entities, with 20 retrieval queries and 10 aggregation pipelines.</p>
+          <!-- <div class="links"><a href="#">Code →</a><a href="#">Live →</a></div> -->
+        </div>
+      </article>
+      <article class="project" data-cat="bi">
+        <div class="project-thumb"><img src="assets/projects/kpi.png" alt="KPI Reporting & Automation" onerror="this.outerHTML='<i class=&quot;bi bi-speedometer2&quot;></i>'"></div>
+        <div class="project-body">
+          <span class="tag">Python · Automation</span>
+          <h3>KPI Reporting &amp; Automation</h3>
+          <p>Dashboards tracking MTTR, SLA compliance and backlog at Cognizant, plus Python scripts automating routine reporting.</p>
+          <!-- <div class="links"><a href="#">Code →</a><a href="#">Live →</a></div> -->
+        </div>
+      </article>
+      </div>
+    </section>
+  </div>
+</main>
+<footer class="footer">
+  <div class="container">
+    <div class="social">
+  <a href="https://linkedin.com/in/dhanush-kumar-nagarajan" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+  <a href="https://github.com/dhanushknagarajan" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+  <a href="mailto:dknagarjan99@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+</div>
+    <p>&copy; <span class="yr">2026</span> Dhanush Kumar Nagarajan</p>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
